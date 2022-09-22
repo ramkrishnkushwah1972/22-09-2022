@@ -7,16 +7,17 @@ public class TestEmployee {
 
 	public static void main(String[] args) {
 		
-		SalaryEmployee salary_employee = new SalaryEmployee(1000,"Rakesh","Python Developer"); 
+		Employee emp1= null;
+		emp1= new SalaryEmployee(1000,"Rakesh","Python Developer"); 
 		
-		HourlyEmployee hourly_employee = new HourlyEmployee(1100,"Mahesh","Java Developer");
+		System.out.println(emp1);
+		System.out.println("Weekly Salary : "+emp1.calculatePay());
 		
-		System.out.println(salary_employee);
-		System.out.println("Weekly Salary : "+salary_employee.calculatePay(13));
+		System.out.println("*****************************************");
 		
-		System.out.println(hourly_employee);
-		System.out.println("Hourly Salary : "+hourly_employee.calculatePay(1.5));
-
+		emp1 = new HourlyEmployee(1100,5,"Mahesh","Java Developer");
+		System.out.println(emp1);
+		System.out.println("Hourly Salary : "+emp1.calculatePay());
 	}
 
 }
