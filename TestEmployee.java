@@ -2,6 +2,7 @@ package com.exercise.pll;
 
 import com.exercise.bll.HourlyEmployee;
 import com.exercise.bll.SalaryEmployee;
+import com.exercise.bll.Employee;
 
 public class TestEmployee {
 
