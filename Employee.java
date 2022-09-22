@@ -24,11 +24,11 @@ public abstract class Employee {
 		this.jobTitle = jobTitle;
 	}
 	
-	public abstract double calculatePay(double payrat);
+	public abstract double calculatePay();
 	
 	@Override
 	public String toString() {
-		return "Employee [empName=" + empName + ", jobTitle=" + jobTitle + "]";
+		return "Employee [Name=" + empName + ", Job Title=" + jobTitle + "]";
 	}
 
 	
