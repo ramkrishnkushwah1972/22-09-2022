@@ -29,7 +29,7 @@ public class SalaryEmployee extends Employee{
 	
 	@Override
 	public double calculatePay() {
-		return weeklySalary*7;
+		return weeklySalary;
 	}
 	
 	
