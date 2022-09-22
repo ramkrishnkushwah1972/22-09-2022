@@ -10,9 +10,9 @@ public static void main(String[] args) {
 		Book b1= new Book();
 		System.out.println(b1);
 		
-		Author A1 = new Author("Ravi","yas@123.com");
+		Author a1 = new Author("Ravi","yas@123.com");
 
-		Book b2= new Book("ISBN0012","Letus", A1,111.0, 2);
+		Book b2= new Book("ISBN0012","Letus", a1,111.0, 2);
 		
 		System.out.println(b2);
 		
